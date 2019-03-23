@@ -2,12 +2,15 @@
 
 body {
 	font-family: IBM Plex Mono;
-	font-size: 40px;
-	line-height: 1.5;
   overflow-x: hidden;
   overflow-y: auto;
 	background-color: black;
 	color: white;
+}
+
+h1{
+  font-size: 40px;
+	line-height: 1.5;
 }
 
 header {
