@@ -31,7 +31,7 @@ sections.forEach(section => {
   loader.add("image", originalImageSrc);
 
   //add displacement image -
-  loader.add("displacement", "/assets/displacement1.jpg");
+  loader.add("displacement", "assets/displacement1.jpg");
 
   //pull into page
   loader.load((loader, resources) => {
