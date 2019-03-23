@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+
+body {
+	font-family: IBM Plex Mono;
+	font-size: 40px;
+	line-height: 1.5;
+  overflow-x: hidden;
+  overflow-y: auto;
+	background-color: black;
+	color: white;
+}
+
+header {
+  position: fixed;
+  top: 40px;
+  left: 40px;
+  z-index: 1;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+section img {
+  width: 900px;
+}
+
